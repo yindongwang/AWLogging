@@ -60,13 +60,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91747235BB09423796167288 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		991AAD51D518CDBA1E931180 /* AWLogging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AWLogging.podspec; path = ../AWLogging.podspec; sourceTree = "<group>"; };
+		91747235BB09423796167288 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		991AAD51D518CDBA1E931180 /* AWLogging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AWLogging.podspec; path = ../AWLogging.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C14FECAE038AD69432749F2C /* Pods-AWLogging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWLogging_Example.debug.xcconfig"; path = "Target Support Files/Pods-AWLogging_Example/Pods-AWLogging_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1CBD5290A635B16183EA2C6 /* Pods-AWLogging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWLogging_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AWLogging_Tests/Pods-AWLogging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D07D2B89601F1C808B65E401 /* Pods_AWLogging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWLogging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B1B057A7162F0248CCD323 /* Pods_AWLogging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWLogging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5BB2A20F837CFA5075BC442 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5BB2A20F837CFA5075BC442 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C1CBD5290A635B16183EA2C6 /* Pods-AWLogging_Tests.debug.xcconfig */,
 				1ADE4BF358CD26A464308018 /* Pods-AWLogging_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
