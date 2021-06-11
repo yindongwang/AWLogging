@@ -1,0 +1,6 @@
+framework module AWLogging {
+  umbrella header "AWLogging-umbrella.h"
+
+  export *
+  module * { export * }
+}

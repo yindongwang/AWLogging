@@ -1,0 +1,27 @@
+PODS:
+  - AWLogging (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AWLogging (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AWLogging:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWLogging: 10937feea4c8c6febe8f6f180334670e54913ee5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 7a95ea60ee54263a3205041047186e688c7a697e
+
+COCOAPODS: 1.10.0

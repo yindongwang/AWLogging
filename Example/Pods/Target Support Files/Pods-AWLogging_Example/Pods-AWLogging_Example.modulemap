@@ -1,0 +1,6 @@
+framework module Pods_AWLogging_Example {
+  umbrella header "Pods-AWLogging_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
