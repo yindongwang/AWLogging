@@ -1,7 +1,7 @@
 {
   "name": "AWLogging",
   "version": "0.1.0",
-  "summary": "A short description of AWLogging.",
+  "summary": "这是一个Log封装，其实就是NSLog",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Albert Wang/AWLogging",
   "license": {
